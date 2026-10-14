@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.one,
+.footer{
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 250px;
+}
+
+.left{
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+ul{
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 250px 140px 250px;
+}
+
+.heroinfo{
+    width: 500px;
+}
+
+.heromain{
+    font-size: 60px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.herosec{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 18px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+.herobutton{
+    background-color: #3882F6;
+    border-style: none;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px 30px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 250px;
+}
+
+.infoheader{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.infoimg{
+    display: flex;
+    gap: 50px;
+}
+
+.quotesimg{
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+.qimg{
+    flex-wrap: wrap;
+    text-align: center;
+    width: 200px;
+    color: grey;
+    font-size: 18px;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 120px 250px;
+}
+
+.quotes{
+    font-size: 40px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    width: 900px;
+}
+
+.author{
+    font-weight: bold;
+    font-size: 30px;
+    align-self: flex-end;
+    margin-right: 280px;
+}
+
+.four{
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #3882F6;
+    width: 1200px;
+    height: 180px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.callinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.callheader{
+    color:#E5E7EB;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.callsec{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.callbutton{
+    display: flex;
+    align-self: center;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border-color: #F9FAF8;
+    border-style: solid;
+
+}
+
+.footer{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
